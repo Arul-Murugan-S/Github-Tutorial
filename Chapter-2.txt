@@ -1,0 +1,8 @@
+Remote Git Commands:
+1. git clone <repository_url> - Clones a remote repository to your local machine.
+2. git push - Pushes the local commits to a remote repository.
+3. git pull - Fetches changes from a remote repository and merges them into the current branch.
+4. git fetch - Retrieves changes from a remote repository, but does not merge them.
+5. git remote - Lists the remote repositories associated with the local repository.
+6. git remote add <name> <url> - Adds a new remote repository with a given name and URL.
+7. git remote remove <name> - Removes a remote repository from the local repository.
