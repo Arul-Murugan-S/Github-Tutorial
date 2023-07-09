@@ -1,0 +1,3 @@
+No logs at all...
+
+This .log is not added by .gitignore method in main branch but it has added by .gitignore from GitIgnore branch. So .log will appear in main branch but it will not appear in GitIgnore branch.
