@@ -4,13 +4,23 @@ Some ommonly used local system Git commands:
 * Inside the folder only we have to do all these steps for storing files:-
 
 Local Git Commands:
-1. git init - Initializes a new Git repository in the current directory.
-2. git add <file> - Adds a file to the staging area, preparing it for a commit.
-3. git commit -m "<message>" - Creates a new commit with the changes in the staging area.
-4. git status - Shows the status of the working directory and staged files.
-5. git log - Displays the commit history of the repository.
-6. git diff - Shows the differences between the working directory and the staging area or previous commits.
-7. git branch - Lists all branches in the repository.
-8. git checkout <branch> - Switches to the specified branch.
-9. git merge <branch> - Merges changes from a specified branch into the current branch.
-10. git reset <file> - Unstages a file, removing it from the staging area.
+1.  git init                         -Initializes a new Git repository in the current directory.
+2.  git add <file>                    -Adds a file to the staging area, preparing it for a commit.
+3.  git add .                       -will add all files to staging area, preparing it for a commit.
+4.  git commit -m "<message>"        -Creates a new commit with the changes in the staging area.
+5.  git status                       -Shows the status of the working directory and staged files.
+6.  git restore --staged <file>     -to unstage a file.
+7.  git rm --cached <file>          -it will remove a files from staging area.
+8.  git rm --cached -r .            -it will remove all files from staging area.
+9.  git log                          -Displays the commit history of the repository.
+10. git diff                         -Shows the differences between the working directory and the staging area or previous commits.
+11. git branch <file>                -ists all branches in the repository.
+12. git branch                     -Lists all branches in the repository.
+13. git checkout                     - to find which branch now in, as well as *branch name will display when use "git branch".
+14. git checkout <branch>            -Switches to the specified branch.
+15. git merge <branch>               -Merges changes from a specified branch into the current branch.
+16. git reset <file>                -Unstages a file, removing it from the staging area.
+
+
+
+
