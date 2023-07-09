@@ -1,0 +1,21 @@
+# By using <.gitignore> file in git repo, We can avoid any sensitive and hidden files that we dont want to sync with github public repository.
+# .<file> is the hidden file, we find it by executing a command "$ ls -a" in bash command line or system command line. 
+
+
+# password   - any sensitive files like password
+# secret     - any personal files like secret
+# .tmp   - any hidden files with .<file>
+
+# (astrix with .extention)
+# *.txt    -  this ignore all the .txt extention files
+# *.jpg    - this ignore all the .jpg extention files
+
+
+# Here is my ingore files by actual definition
+
+password.txt
+secret.txt
+personal.js
+.log                   
+
+
