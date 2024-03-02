@@ -1,1 +1,21 @@
-Chapter-4:-
+Git Operations:-
+
+1. git clone <repo_url>
+   Or
+2. git init
+3. git remote add origin <repo_url>
+4. git remote
+
+5. git status
+6. git add .  Or git add <file>
+7. git commit -m "<message>"
+8. git push origin <branch>   - main/master/specified_name
+
+9. git fetch   - check the changes from remote
+10. git pull - merge the changes from remote to local
+
+11. git branch
+12. git checkout <branch> - Switches to the specified branch.
+    git branch <new_branch_name> - create a new branch from the specified branch.
+    git checkout -b <new_branch_name> - create a new branch from the specified branch and directly switch to it.
+
