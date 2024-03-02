@@ -4,5 +4,5 @@ Remote Git Commands:
 3. git pull - Fetches changes from a remote repository and merges them into the current branch.
 4. git fetch - Retrieves changes from a remote repository, but does not merge them.
 5. git remote - Lists the remote repositories associated with the local repository.
-6. git remote add <name> <url> - Adds a new remote repository with a given name and URL.
-7. git remote remove <name> - Removes a remote repository from the local repository.
+6. git remote add <name> <url> - Adds a new remote repository with a given name and URL. "origin" is a common convention for <name> in Git for the main remote repository.
+7. git remote remove <name> - Removes a previously added remote repository configuration from the local repository.
