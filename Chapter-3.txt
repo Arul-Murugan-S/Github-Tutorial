@@ -11,10 +11,11 @@ Local Git Commands:
 4. git status - Shows the status of the working directory and staged files.
 5. git log - Displays the commit history of the repository.
 6. git diff - Shows the differences between the working directory and the staging area or previous commits.
-7. git branch - Lists all branches in the repository.
-8. git checkout <branch> - Switches to the specified branch.
-9. git merge <branch> - Merges changes from a specified branch into the current branch.
-10. git reset <file> - Unstages a file, removing it from the staging area.
+7. git checkout -b <new_branch_name>   - Creates a new branch and switches to it.
+8. git branch - Lists all branches in the repository.
+9. git checkout <branch> - Switches to the specified branch.
+10. git merge <branch> - Merges changes from a specified branch into the current branch.
+11. git reset <file> - Unstages a file, removing it from the staging area.
 
 Remote Git Commands:
 1. git clone <repository_url> - Clones a remote repository to your local machine.
@@ -22,7 +23,6 @@ Remote Git Commands:
 3. git pull - Fetches changes from a remote repository and merges them into the current branch.
 4. git fetch - Retrieves changes from a remote repository, but does not merge them.
 5. git remote - Lists the remote repositories associated with the local repository.
-6. git remote add <name> <url> - Adds a new remote repository with a given name and URL. "origin" is a common convention for <name> in 
-                                 Git for the main remote repository.
+6. git remote add <name> <url> - After "git init" command, to Add a new remote repository with a given name and URL. "origin" is a common convention for <name> in Git for the main remote repository.
 7. git remote remove <name> - Removes a previously added remote repository configuration from the local repository.
 
